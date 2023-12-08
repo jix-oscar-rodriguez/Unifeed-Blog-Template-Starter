@@ -1,0 +1,16 @@
+$paragraph :#616161;
+
+.footer {
+
+    width          : 80%;
+    margin         : 0 auto;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 8rem 0;
+
+    .foooter__copyrights {
+        font-size: 2.3rem;
+        color    : $paragraph;
+    }
+}

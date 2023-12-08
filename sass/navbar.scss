@@ -1,0 +1,38 @@
+$background:#ffffff;
+$button    :#ee7c0d;
+$ttitle    : #000000;
+$paragraph :#616161;
+
+
+.navbar {
+    @include nav();
+    color          : white;
+    margin         : 0 auto;
+    width          : 80%;
+    justify-content: space-between;
+    padding        : 5.5rem 0;
+
+    .nav__list {
+        @include nav();
+        gap: 3.5rem;
+
+    }
+
+    .nav__link {
+        font-size: 2rem;
+
+    }
+
+    .nav__link--grey {
+        color      : $paragraph;
+        font-weight: 600;
+    }
+
+    .nav__link--orange {
+        background-color: $button;
+        color           : $ttitle;
+        font-weight     : bold;
+        padding         : 1.7rem 3.5rem;
+        border-radius   : .7rem;
+    }
+}

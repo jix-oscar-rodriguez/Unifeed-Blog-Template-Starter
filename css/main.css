@@ -1,0 +1,60 @@
+.main__news {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 10rem;
+}
+.main__news .new__image {
+  width: 28vw;
+}
+.main__news .news__txt {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title__module {
+  font-size: 4.5rem;
+}
+
+.description__module {
+  font-size: 2.5rem;
+  color: #616161;
+}
+
+.author {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.author .author__img {
+  width: 4vw;
+}
+.author .author__title {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.author .author__career {
+  font-size: 1.9rem;
+  color: #616161;
+}
+
+.news {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 13rem;
+  gap: 1rem;
+}
+.news .articles {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.news .articles__img {
+  width: 24vw;
+}
+.news .author {
+  margin-top: 2.3rem;
+}/*# sourceMappingURL=main.css.map */

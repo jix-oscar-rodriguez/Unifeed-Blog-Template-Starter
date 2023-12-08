@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  padding: 5.5rem 0;
+}
+.navbar .nav__list {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+.navbar .nav__link {
+  font-size: 2rem;
+}
+.navbar .nav__link--grey {
+  color: #616161;
+  font-weight: 600;
+}
+.navbar .nav__link--orange {
+  background-color: #ee7c0d;
+  color: #000000;
+  font-weight: bold;
+  padding: 1.7rem 3.5rem;
+  border-radius: 0.7rem;
+}/*# sourceMappingURL=navbar.css.map */
